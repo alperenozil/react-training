@@ -1,11 +1,10 @@
 import React from 'react';
+import Counter from './Counter';
 
 function App() {
   return (
     <div>
-      <button className="btn">-</button>
-      <span>0</span>
-      <button>+</button>
+      <Counter initCount={7}/>
     </div>
     
   );
